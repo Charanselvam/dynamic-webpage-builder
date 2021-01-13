@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import renderfield from "./Render";
+//import form from "../data.json";
+//import form from "../data/data";
 const SERVER_URL ="https://my-json-server.typicode.com/Charanselvam/json/form";
 //const SERVER_URL = "http://localhost:3001/form";
 
@@ -28,7 +30,7 @@ export default function App() {
   }
 
   return (
-    <li>
+    <div>
       <div className="container">
         <form id="contact" >
           <h1>{form.form_heading}</h1>
@@ -44,6 +46,6 @@ export default function App() {
           <button type="submit">{form.ActionDisplayName}</button>
         </form>
       </div>
-    </li>
+    </div>
   );
 }
