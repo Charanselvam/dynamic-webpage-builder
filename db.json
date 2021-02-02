@@ -13,16 +13,13 @@
         "Size": "10",
         "Type": "SecretTextBox"
       },
+      
       {
         "Name": "email",
         "Size": "10",
         "Type": "email"
       },
-      {
-        "Name": "email",
-        "Size": "10",
-        "Type": "email"
-      },
+      
       {
         "Name": "Gender",
         "Options": [
