@@ -32,7 +32,7 @@
             "Value": "female"
           }
         ],
-        "Type": "RadioButton"
+        "Type": "CheckBox"
       },
       {
         "DropdownValue": [
